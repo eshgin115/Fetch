@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+#btn{
+background-color: blue;
+border: none;
+padding: 10px 12px;
+border-radius: 5px;
+margin: 20px 40px;
+}
+#btn:hover{
+    color: red;
+    transform: scale(1.1);
+}
+#list{
+    display: flex;
+    justify-content: space-between;
+}
+#list img{
+    width: 100%;
+}
+#list .card-text{
+    width: 100%;
+}
